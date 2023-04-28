@@ -1,0 +1,53 @@
+main {
+  height: 100vh;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 212, 255) 100%);
+}
+main > div > section > div:nth-of-type(1) {
+  height: 400px;
+  background-color: rgba(17, 20, 44, 0.4392156863);
+}
+main > div > section > div:nth-of-type(1) label {
+  color: white;
+  font-size: 26px;
+}
+main > div > section > div:nth-of-type(1) > input {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #11142c;
+  height: 50px;
+  padding-left: 20px;
+  color: white;
+}
+main > div > section > div:nth-of-type(1) > input::-moz-placeholder {
+  padding-left: 1px;
+}
+main > div > section > div:nth-of-type(1) > input::placeholder {
+  padding-left: 1px;
+}
+main > div > section > div:nth-of-type(2) {
+  background-color: rgba(43, 46, 70, 0.231372549);
+}
+main > div > section > div:nth-of-type(2) > ul > li {
+  color: white;
+  list-style-type: none;
+  font-size: 17px;
+}
+main > div > section > div:nth-of-type(2) > ul > li > div > span {
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 3px;
+}
+main > div > section > div:nth-of-type(2) > ul > li > div > i {
+  margin-left: 8px;
+  font-size: 25px;
+  border: 1px solid #8188b9;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #020418;
+  background-color: rgba(17, 44, 37, 0.6784313725);
+}/*# sourceMappingURL=style.css.map */
